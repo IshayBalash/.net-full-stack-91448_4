@@ -1,5 +1,5 @@
 
-# c# Built-In Types Table 
+# c# Built-In Types Table (PRIMITIVE TYPE) 
 The following table shows the keywords for built-in C# types, which are aliases of predefined types in the <xref:System> namespace.  
   
 |C# Type|.NET Framework Type|  
