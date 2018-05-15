@@ -127,3 +127,124 @@ The `default` case specifies the switch section to execute if the match expressi
 
 The `default` case can appear in any order in the `switch` statement. Regardless of its order in the source code, it is always evaluated last, after all `case` labels have been evaluated.
 
+
+---
+# Single-Dimensional Arrays (C# Programming Guide)
+You can declare a single-dimensional array of five integers as shown in the following example:  
+  
+```csharp  
+ int[] array = new int[5];
+ ```
+  
+ This array contains the elements from `array[0]` to `array[4]`. The `new` operator is used to create the array and initialize the array elements to their default values. In this example, all the array elements are initialized to zero.  
+  
+ An array that stores string elements can be declared in the same way. For example:  
+```csharp  
+string[] stringArray = new string[6];
+ ```
+  
+## Array Initialization  
+ It is possible to initialize an array upon declaration, in which case, the rank specifier is not needed because it is already supplied by the number of elements in the initialization list. For example:  
+
+```csharp 
+int[] array1 = new int[] { 1, 3, 5, 7, 9 };
+``` 
+
+ A string array can be initialized in the same way. The following is a declaration of a string array where each array element is initialized by a name of a day:  
+  ```csharp 
+string[] weekDays = { "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" };
+  ``` 
+ When you initialize an array upon declaration, you can use the following shortcuts:  
+    ```csharp 
+int[] array2 = { 1, 3, 5, 7, 9 };
+string[] weekDays2 = { "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" };
+    ``` 
+ It is possible to declare an array variable without initialization, but you must use the `new` operator when you assign an array to this variable. For example: 
+ 
+```csharp  
+int[] array3;
+array3 = new int[] { 1, 3, 5, 7, 9 };   // OK
+//array3 = {1, 3, 5, 7, 9};   // Error
+```
+  
+
+---
+# Multidimensional Arrays 
+Arrays can have more than one dimension. For example, the following declaration creates a two-dimensional array of four rows and two columns.  
+ ```csharp 
+ int[,] array = new int[4, 2];
+  ```
+ The following declaration creates an array of three dimensions, 4, 2, and 3.  
+   ```csharp 
+  int[, ,] array1 = new int[4, 2, 3];
+   ```
+    
+## Array Initialization  
+ You can initialize the array upon declaration, as is shown in the following example.  
+  ```csharp
+  // Two-dimensional array.
+        int[,] array2D = new int[,] { { 1, 2 }, { 3, 4 }, { 5, 6 }, { 7, 8 } };
+        // The same array with dimensions specified.
+        int[,] array2Da = new int[4, 2] { { 1, 2 }, { 3, 4 }, { 5, 6 }, { 7, 8 } };
+        // A similar array with string elements.
+        string[,] array2Db = new string[3, 2] { { "one", "two" }, { "three", "four" },
+                                                { "five", "six" } };
+
+        // Three-dimensional array.
+        int[, ,] array3D = new int[,,] { { { 1, 2, 3 }, { 4, 5, 6 } }, 
+                                         { { 7, 8, 9 }, { 10, 11, 12 } } };
+        // The same array with dimensions specified.
+        int[, ,] array3Da = new int[2, 2, 3] { { { 1, 2, 3 }, { 4, 5, 6 } }, 
+                                               { { 7, 8, 9 }, { 10, 11, 12 } } };
+
+        // Accessing array elements.
+        System.Console.WriteLine(array2D[0, 0]);
+        System.Console.WriteLine(array2D[0, 1]);
+        System.Console.WriteLine(array2D[1, 0]);
+        System.Console.WriteLine(array2D[1, 1]);
+        System.Console.WriteLine(array2D[3, 0]);
+        System.Console.WriteLine(array2Db[1, 0]);
+        System.Console.WriteLine(array3Da[1, 0, 1]);
+        System.Console.WriteLine(array3D[1, 1, 2]);
+
+        // Getting the total count of elements or the length of a given dimension.
+        var allLength = array3D.Length;
+        var total = 1;
+        for (int i = 0; i < array3D.Rank; i++) {
+            total *= array3D.GetLength(i);
+        }
+        System.Console.WriteLine("{0} equals {1}", allLength, total);
+
+        // Output:
+        // 1
+        // 2
+        // 3
+        // 4
+        // 7
+        // three
+        // 8
+        // 12
+        // 12 equals 12
+   ```
+ You also can initialize the array without specifying the rank.  
+    ```csharp
+   int[,] array4 = { { 1, 2 }, { 3, 4 }, { 5, 6 }, { 7, 8 } };
+    ```
+ If you choose to declare an array variable without initialization, you must use the `new` operator to assign an array to the variable. The use of `new` is shown in the following example.  
+ ```csharp
+int[,] array5;
+array5 = new int[,] { { 1, 2 }, { 3, 4 }, { 5, 6 }, { 7, 8 } };   // OK
+//array5 = {{1,2}, {3,4}, {5,6}, {7,8}};   // Error 
+```
+ The following example assigns a value to a particular array element.  
+  ```csharp 
+array5[2, 1] = 25;
+```
+ Similarly, the following example gets the value of a particular array element and assigns it to variable `elementValue`.  
+  ```csharp 
+ int elementValue = array5[2, 1];
+  ```
+ The following code example initializes the array elements to default values (except for jagged arrays).  
+  ```csharp 
+ int[,] array6 = new int[10, 10]; 
+  ```
