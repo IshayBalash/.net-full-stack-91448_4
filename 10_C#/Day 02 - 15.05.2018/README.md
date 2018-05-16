@@ -248,3 +248,331 @@ array5[2, 1] = 25;
   ```csharp 
  int[,] array6 = new int[10, 10]; 
   ```
+
+
+# Jagged Arrays 
+A jagged array is an array whose elements are arrays. 
+The elements of a jagged array can be of different dimensions and sizes. 
+A jagged array is sometimes called an "array of arrays." The following examples show how to declare, initialize, and access jagged arrays.  
+  
+ The following is a declaration of a single-dimensional array that has three elements, each of which is a single-dimensional array of integers:  
+   ```csharp 
+ int[][] jaggedArray = new int[3][];
+   ```
+ Before you can use `jaggedArray`, its elements must be initialized. You can initialize the elements like this:  
+  
+  ```csharp 
+        jaggedArray[0] = new int[5];
+        jaggedArray[1] = new int[4];
+        jaggedArray[2] = new int[2];
+  
+```
+  
+ Each of the elements is a single-dimensional array of integers. The first element is an array of 5 integers, the second is an array of 4 integers, and the third is an array of 2 integers.  
+  
+ It is also possible to use initializers to fill the array elements with values, in which case you do not need the array size. For example:  
+  
+  ```csharp 
+        jaggedArray[0] = new int[] { 1, 3, 5, 7, 9 };
+        jaggedArray[1] = new int[] { 0, 2, 4, 6 };
+        jaggedArray[2] = new int[] { 11, 22 };
+   ``` 
+  
+ You can also initialize the array upon declaration like this:  
+  
+
+   ```csharp 
+    int[][] jaggedArray2 = new int[][] 
+    {
+        new int[] {1,3,5,7,9},
+        new int[] {0,2,4,6},
+        new int[] {11,22}
+    };
+   ```
+  
+ You can use the following shorthand form. Notice that you cannot omit the `new` operator from the elements initialization because there is no default initialization for the elements:  
+  
+   ```csharp 
+    int[][] jaggedArray3 = 
+    {
+        new int[] {1,3,5,7,9},
+        new int[] {0,2,4,6},
+        new int[] {11,22}
+    };
+   ``` 
+  
+ A jagged array is an array of arrays, and therefore its elements are reference types and are initialized to `null`.  
+  
+ You can access individual array elements like these examples:  
+ ```csharp
+        // Assign 77 to the second element ([1]) of the first array ([0]):
+        jaggedArray3[0][1] = 77;
+
+        // Assign 88 to the second element ([1]) of the third array ([2]):
+        jaggedArray3[2][1] = 88;
+  ``` 
+  
+ It is possible to mix jagged and multidimensional arrays. The following is a declaration and initialization of a single-dimensional jagged array that contains three two-dimensional array elements of different sizes. For more information about two-dimensional arrays,  
+   ```csharp 
+        int[][,] jaggedArray4 = new int[3][,] 
+        {
+            new int[,] { {1,3}, {5,7} },
+            new int[,] { {0,2}, {4,6}, {8,10} },
+            new int[,] { {11,22}, {99,88}, {0,9} } 
+        };
+   ``` 
+  
+ You can access individual elements as shown in this example, which displays the value of the element `[1,0]` of the first array (value `5`):  
+   ```csharp 
+       System.Console.Write("{0}", jaggedArray4[0][1, 0]);
+   ``` 
+ 
+  
+ The method `Length` returns the number of arrays contained in the jagged array. For example, assuming you have declared the previous array, this line:  
+  
+   ```csharp 
+        System.Console.WriteLine(jaggedArray4.Length);
+   ``` 
+  
+ returns a value of 3.  
+  
+## Example  
+ This example builds an array whose elements are themselves arrays. Each one of the array elements has a different size.  
+  
+   ```csharp 
+class ArrayTest
+{
+    static void Main()
+    {
+        // Declare the array of two elements:
+        int[][] arr = new int[2][];
+
+        // Initialize the elements:
+        arr[0] = new int[5] { 1, 3, 5, 7, 9 };
+        arr[1] = new int[4] { 2, 4, 6, 8 };
+
+        // Display the array elements:
+        for (int i = 0; i < arr.Length; i++)
+        {
+            System.Console.Write("Element({0}): ", i);
+
+            for (int j = 0; j < arr[i].Length; j++)
+            {
+                System.Console.Write("{0}{1}", arr[i][j], j == (arr[i].Length - 1) ? "" : " ");
+            }
+            System.Console.WriteLine();            
+        }
+        // Keep the console window open in debug mode.
+        System.Console.WriteLine("Press any key to exit.");
+        System.Console.ReadKey();
+    }
+}
+/* Output:
+    Element(0): 1 3 5 7 9
+    Element(1): 2 4 6 8
+*/
+   ``` 
+
+---
+# Using foreach with Arrays
+C# also provides the foreach statement. This statement provides a simple, clean way to iterate through the elements of an array or any enumerable collection. The `foreach` statement processes elements in the order returned by the array or collection type’s enumerator, which is usually from the 0th element to the last. For example, the following code creates an array called `numbers` and iterates through it with the `foreach` statement:  
+ 
+   ```csharp 
+       int[] numbers = { 4, 5, 6, 1, 2, 3, -2, -1, 0 };
+        foreach (int i in numbers)
+        {
+            System.Console.Write("{0} ", i);
+        }
+        // Output: 4 5 6 1 2 3 -2 -1 0
+   ```
+  
+ With multidimensional arrays, you can use the same method to iterate through the elements, for example:  
+
+   ```csharp 
+      int[,] numbers2D = new int[3, 2] { { 9, 99 }, { 3, 33 }, { 5, 55 } };
+        // Or use the short form:
+        // int[,] numbers2D = { { 9, 99 }, { 3, 33 }, { 5, 55 } };
+
+        foreach (int i in numbers2D)
+        {
+            System.Console.Write("{0} ", i);
+        }
+        // Output: 9 99 3 33 5 55
+   ```  
+ However, with multidimensional arrays, using a nested for loop gives you more control over the array elements.  
+  
+
+  
+  ---
+
+# Passing Arrays as Arguments
+Arrays can be passed as arguments to method parameters. Because arrays are reference types, the method can change the value of the elements.  
+  
+## Passing Single-Dimensional Arrays As Arguments  
+ You can pass an initialized single-dimensional array to a method. For example, the following statement sends an array to a print method.  
+ 
+   ```csharp 
+        int[] theArray = { 1, 3, 5, 7, 9 };
+        PrintArray(theArray);
+   ``` 
+   
+  
+ The following code shows a partial implementation of the print method.  
+  
+   ```csharp 
+    void PrintArray(int[] arr)
+    {
+        // Method code.
+    }
+   ``` 
+  
+ You can initialize and pass a new array in one step, as is shown in the following example.  
+  
+  ```csharp 
+           PrintArray(new int[] { 1, 3, 5, 7, 9 });
+   ``` 
+  
+## Example  
+  
+### Description  
+ In the following example, an array of strings is initialized and passed as an argument to a `PrintArray` method for strings. The method displays the elements of the array. Next, methods `ChangeArray` and `ChangeArrayElement` are called to demonstrate that sending an array argument by value does not prevent changes to the array elements.  
+  
+### Code  
+  ```csharp 
+class ArrayClass
+{
+    static void PrintArray(string[] arr)
+    {
+        for (int i = 0; i < arr.Length; i++)
+        {
+            System.Console.Write(arr[i] + "{0}", i < arr.Length - 1 ? " " : "");
+        }
+        System.Console.WriteLine();
+    }
+
+    static void ChangeArray(string[] arr)
+    {
+        // The following attempt to reverse the array does not persist when
+        // the method returns, because arr is a value parameter.
+        arr = (arr.Reverse()).ToArray();
+        // The following statement displays Sat as the first element in the array.
+        System.Console.WriteLine("arr[0] is {0} in ChangeArray.", arr[0]);
+    }
+
+    static void ChangeArrayElements(string[] arr)
+    {
+        // The following assignments change the value of individual array 
+        // elements. 
+        arr[0] = "Sat";
+        arr[1] = "Fri";
+        arr[2] = "Thu";
+        // The following statement again displays Sat as the first element
+        // in the array arr, inside the called method.
+        System.Console.WriteLine("arr[0] is {0} in ChangeArrayElements.", arr[0]);
+    }
+
+    static void Main()
+    {
+        // Declare and initialize an array.
+        string[] weekDays = { "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" };
+
+        // Pass the array as an argument to PrintArray.
+        PrintArray(weekDays);
+
+        // ChangeArray tries to change the array by assigning something new
+        // to the array in the method. 
+        ChangeArray(weekDays);
+
+        // Print the array again, to verify that it has not been changed.
+        System.Console.WriteLine("Array weekDays after the call to ChangeArray:");
+        PrintArray(weekDays);
+        System.Console.WriteLine();
+
+        // ChangeArrayElements assigns new values to individual array
+        // elements.
+        ChangeArrayElements(weekDays);
+
+        // The changes to individual elements persist after the method returns.
+        // Print the array, to verify that it has been changed.
+        System.Console.WriteLine("Array weekDays after the call to ChangeArrayElements:");
+        PrintArray(weekDays);
+    }
+}
+// Output: 
+// Sun Mon Tue Wed Thu Fri Sat
+// arr[0] is Sat in ChangeArray.
+// Array weekDays after the call to ChangeArray:
+// Sun Mon Tue Wed Thu Fri Sat
+// 
+// arr[0] is Sat in ChangeArrayElements.
+// Array weekDays after the call to ChangeArrayElements:
+// Sat Fri Thu Wed Thu Fri Sat
+   ``` 
+  
+## Passing Multidimensional Arrays As Arguments  
+ You pass an initialized multidimensional array to a method in the same way that you pass a one-dimensional array.  
+  
+   ```csharp 
+    int[,] theArray = { { 1, 2 }, { 2, 3 }, { 3, 4 } };
+    Print2DArray(theArray);
+   ``` 
+  
+ The following code shows a partial declaration of a print method that accepts a two-dimensional array as its argument.  
+  
+  ```csharp 
+    void Print2DArray(int[,] arr)
+    {
+        // Method code.
+    }
+   ``` 
+  
+ You can initialize and pass a new array in one step, as is shown in the following example.  
+  
+  ```csharp 
+    Print2DArray(new int[,] { { 1, 2 }, { 3, 4 }, { 5, 6 }, { 7, 8 } });
+   ``` 
+  
+## Example  
+  
+### Description  
+ In the following example, a two-dimensional array of integers is initialized and passed to the `Print2DArray` method. The method displays the elements of the array.  
+  
+### Code  
+   ```csharp 
+class ArrayClass2D
+{
+    static void Print2DArray(int[,] arr)
+    {
+        // Display the array elements.
+        for (int i = 0; i < arr.GetLength(0); i++)
+        {
+            for (int j = 0; j < arr.GetLength(1); j++)
+            {
+                System.Console.WriteLine("Element({0},{1})={2}", i, j, arr[i, j]);
+            }
+        }
+    }
+    static void Main()
+    {
+        // Pass the array as an argument.
+        Print2DArray(new int[,] { { 1, 2 }, { 3, 4 }, { 5, 6 }, { 7, 8 } });
+
+        // Keep the console window open in debug mode.
+        System.Console.WriteLine("Press any key to exit.");
+        System.Console.ReadKey();
+    }
+}
+    /* Output:
+        Element(0,0)=1
+        Element(0,1)=2
+        Element(1,0)=3
+        Element(1,1)=4
+        Element(2,0)=5
+        Element(2,1)=6
+        Element(3,0)=7
+        Element(3,1)=8
+    */
+   ```  
+
+
+
