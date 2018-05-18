@@ -13,13 +13,13 @@ namespace _00_function_overloading
 {
     class Program
     {
-        static int getAvg(int param1, int param2)
+        static int GetAvg(int param1, int param2)
         {
             return (param1 + param2) / 2;
         }
 
 
-        static decimal getAvg(decimal param1, decimal param2)
+        static decimal GetAvg(decimal param1, decimal param2)
         {
             return (param1 + param2) / 2;
         }
@@ -29,9 +29,9 @@ namespace _00_function_overloading
             int grade1 = 100, grade2 = 95;
             decimal waterPrice1 = 12.5M, waterPrice2 = 7;
 
-            decimal gradeAvg = getAvg(grade1, grade2);  //המרה מרומזת - כי אין סכנה לאיבוד מידע
+            decimal gradeAvg = GetAvg(grade1, grade2);  //המרה מרומזת - כי אין סכנה לאיבוד מידע
 
-            decimal priceAvg = getAvg(waterPrice1, waterPrice2);
+            decimal priceAvg = GetAvg(waterPrice1, waterPrice2);
 
             Console.WriteLine($" grade1 is {grade1}\n grade2 is {grade2}");
             Console.WriteLine($" avg of grade1 & grade2 is {(grade1+grade2)/2}");
