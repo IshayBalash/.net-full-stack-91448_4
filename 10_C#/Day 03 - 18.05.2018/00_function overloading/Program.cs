@@ -29,8 +29,7 @@ namespace _00_function_overloading
             int grade1 = 100, grade2 = 95;
             decimal waterPrice1 = 12.5M, waterPrice2 = 7;
 
-            decimal gradeAvg = GetAvg(grade1, grade2);  //המרה מרומזת - כי אין סכנה לאיבוד מידע
-
+            decimal gradeAvg = GetAvg(grade1, grade2); 
             decimal priceAvg = GetAvg(waterPrice1, waterPrice2);
 
             Console.WriteLine($" grade1 is {grade1}\n grade2 is {grade2}");
