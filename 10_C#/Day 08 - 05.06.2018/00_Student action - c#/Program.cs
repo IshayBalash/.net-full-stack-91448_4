@@ -21,7 +21,7 @@ namespace _00_Student_action
                     if (student.StudentName == "Assa" && str == "Math")
                     {
                         student.Subject = str;
-                        student.SubjectReaction = (string subject) =>
+                        student.SubjectReactionFunc = (string subject) =>
                         {
                             Console.WriteLine($"When I party, I learn {subject}");
                         };
@@ -31,7 +31,7 @@ namespace _00_Student_action
                     if (student.StudentName == "Meir" && str == "Physics")
                     {
                         student.Subject = str;
-                        student.SubjectReaction = (string subject) =>
+                        student.SubjectReactionFunc = (string subject) =>
                         {
                             MessageBox.Show($"{subject} is Great");
                         };
@@ -43,7 +43,7 @@ namespace _00_Student_action
             foreach (Student student in studentsArray)
             {
                 Console.WriteLine($"{student.StudentName}, {student.Subject}");
-                student.SubjectReaction(student.Subject);
+                student.SubjectReactionFunc(student.Subject);
             }
             }
     }
