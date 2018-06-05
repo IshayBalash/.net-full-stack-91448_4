@@ -8,7 +8,7 @@
     /// and creates a new type that we will use later to define othe var types
     /// </summary>
     /// this type defines a function that gets one string parameter and returns void
-    delegate void subjectReaction(string subject);
+    delegate void SubjectReaction(string subject);
 
 
     class Student
@@ -18,7 +18,7 @@
 
         //לא יודעים מה תהיה התגובה - ידוע שתהיה תגובה
         //פונקציה שמקבלת מחרוזת ולא מחזירה ערך
-        public subjectReaction SubjectReaction { get; set; }
+        public SubjectReaction SubjectReactionFunc { get; set; }
 
         public Student(string studentName)
         {
