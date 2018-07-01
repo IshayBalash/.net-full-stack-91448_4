@@ -1,0 +1,14 @@
+C:\Users\jbt\Desktop\Day 04 - 29.06.2018\01_N-Tier Model - open connection\UIL\bin\Debug\UIL.exe.config
+C:\Users\jbt\Desktop\Day 04 - 29.06.2018\01_N-Tier Model - open connection\UIL\bin\Debug\FoodDb.mdf
+C:\Users\jbt\Desktop\Day 04 - 29.06.2018\01_N-Tier Model - open connection\UIL\bin\Debug\FoodDb_log.ldf
+C:\Users\jbt\Desktop\Day 04 - 29.06.2018\01_N-Tier Model - open connection\UIL\bin\Debug\UIL.exe
+C:\Users\jbt\Desktop\Day 04 - 29.06.2018\01_N-Tier Model - open connection\UIL\bin\Debug\UIL.pdb
+C:\Users\jbt\Desktop\Day 04 - 29.06.2018\01_N-Tier Model - open connection\UIL\bin\Debug\BLL.dll
+C:\Users\jbt\Desktop\Day 04 - 29.06.2018\01_N-Tier Model - open connection\UIL\bin\Debug\BOL.dll
+C:\Users\jbt\Desktop\Day 04 - 29.06.2018\01_N-Tier Model - open connection\UIL\bin\Debug\DAL.dll
+C:\Users\jbt\Desktop\Day 04 - 29.06.2018\01_N-Tier Model - open connection\UIL\bin\Debug\BLL.pdb
+C:\Users\jbt\Desktop\Day 04 - 29.06.2018\01_N-Tier Model - open connection\UIL\bin\Debug\BOL.pdb
+C:\Users\jbt\Desktop\Day 04 - 29.06.2018\01_N-Tier Model - open connection\UIL\bin\Debug\DAL.pdb
+C:\Users\jbt\Desktop\Day 04 - 29.06.2018\01_N-Tier Model - open connection\UIL\obj\Debug\UIL.csprojResolveAssemblyReference.cache
+C:\Users\jbt\Desktop\Day 04 - 29.06.2018\01_N-Tier Model - open connection\UIL\obj\Debug\UIL.exe
+C:\Users\jbt\Desktop\Day 04 - 29.06.2018\01_N-Tier Model - open connection\UIL\obj\Debug\UIL.pdb

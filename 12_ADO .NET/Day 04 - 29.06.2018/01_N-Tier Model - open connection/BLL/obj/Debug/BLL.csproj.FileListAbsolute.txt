@@ -1,0 +1,9 @@
+C:\Users\jbt\Desktop\Day 04 - 29.06.2018\01_N-Tier Model - open connection\BLL\bin\Debug\BLL.dll
+C:\Users\jbt\Desktop\Day 04 - 29.06.2018\01_N-Tier Model - open connection\BLL\bin\Debug\BLL.pdb
+C:\Users\jbt\Desktop\Day 04 - 29.06.2018\01_N-Tier Model - open connection\BLL\bin\Debug\BOL.dll
+C:\Users\jbt\Desktop\Day 04 - 29.06.2018\01_N-Tier Model - open connection\BLL\bin\Debug\DAL.dll
+C:\Users\jbt\Desktop\Day 04 - 29.06.2018\01_N-Tier Model - open connection\BLL\bin\Debug\BOL.pdb
+C:\Users\jbt\Desktop\Day 04 - 29.06.2018\01_N-Tier Model - open connection\BLL\bin\Debug\DAL.pdb
+C:\Users\jbt\Desktop\Day 04 - 29.06.2018\01_N-Tier Model - open connection\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\jbt\Desktop\Day 04 - 29.06.2018\01_N-Tier Model - open connection\BLL\obj\Debug\BLL.dll
+C:\Users\jbt\Desktop\Day 04 - 29.06.2018\01_N-Tier Model - open connection\BLL\obj\Debug\BLL.pdb

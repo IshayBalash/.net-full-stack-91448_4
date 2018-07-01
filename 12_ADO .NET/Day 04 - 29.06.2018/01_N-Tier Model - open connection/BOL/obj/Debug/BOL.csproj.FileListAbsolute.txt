@@ -1,0 +1,5 @@
+C:\Users\jbt\Desktop\Day 04 - 29.06.2018\01_N-Tier Model - open connection\BOL\bin\Debug\BOL.dll
+C:\Users\jbt\Desktop\Day 04 - 29.06.2018\01_N-Tier Model - open connection\BOL\bin\Debug\BOL.pdb
+C:\Users\jbt\Desktop\Day 04 - 29.06.2018\01_N-Tier Model - open connection\BOL\obj\Debug\BOL.csprojResolveAssemblyReference.cache
+C:\Users\jbt\Desktop\Day 04 - 29.06.2018\01_N-Tier Model - open connection\BOL\obj\Debug\BOL.dll
+C:\Users\jbt\Desktop\Day 04 - 29.06.2018\01_N-Tier Model - open connection\BOL\obj\Debug\BOL.pdb

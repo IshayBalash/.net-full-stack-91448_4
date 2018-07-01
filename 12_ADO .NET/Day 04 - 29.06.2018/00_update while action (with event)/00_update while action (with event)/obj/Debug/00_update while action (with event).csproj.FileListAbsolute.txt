@@ -1,0 +1,8 @@
+C:\Users\jbt\Desktop\Day 04 - 29.06.2018\00_update while action (with event)\00_update while action (with event)\bin\Debug\00_update while action (with event).exe.config
+C:\Users\jbt\Desktop\Day 04 - 29.06.2018\00_update while action (with event)\00_update while action (with event)\bin\Debug\00_update while action (with event).exe
+C:\Users\jbt\Desktop\Day 04 - 29.06.2018\00_update while action (with event)\00_update while action (with event)\bin\Debug\00_update while action (with event).pdb
+C:\Users\jbt\Desktop\Day 04 - 29.06.2018\00_update while action (with event)\00_update while action (with event)\obj\Debug\00_update while action (with event).csprojResolveAssemblyReference.cache
+C:\Users\jbt\Desktop\Day 04 - 29.06.2018\00_update while action (with event)\00_update while action (with event)\obj\Debug\00_update while action (with event).exe
+C:\Users\jbt\Desktop\Day 04 - 29.06.2018\00_update while action (with event)\00_update while action (with event)\obj\Debug\00_update while action (with event).pdb
+C:\Users\jbt\Desktop\Day 04 - 29.06.2018\00_update while action (with event)\00_update while action (with event)\bin\Debug\FoodDb.mdf
+C:\Users\jbt\Desktop\Day 04 - 29.06.2018\00_update while action (with event)\00_update while action (with event)\bin\Debug\FoodDb_log.ldf
