@@ -1,0 +1,66 @@
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\01_using model.dll.config
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\01_using model.dll
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\01_using model.pdb
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\csc.exe
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\csc.exe.config
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\csc.rsp
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\csi.exe
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\csi.exe.config
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\csi.rsp
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\System.AppContext.dll
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\System.Console.dll
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\System.IO.Compression.dll
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\System.IO.Pipes.dll
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\System.Security.Claims.dll
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\System.Threading.Thread.dll
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\System.ValueTuple.dll
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\System.Xml.XPath.dll
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\vbc.exe
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\vbc.exe.config
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\vbc.rsp
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\VBCSCompiler.exe
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\Newtonsoft.Json.dll
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\System.Net.Http.Formatting.dll
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\System.Web.Http.dll
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\System.Web.Http.WebHost.dll
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\Newtonsoft.Json.xml
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\System.Net.Http.Formatting.xml
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\System.Web.Http.xml
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\System.Web.Http.WebHost.xml
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\obj\Debug\01_using model.csprojAssemblyReference.cache
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\obj\Debug\01_using model.csproj.CoreCompileInputs.cache
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\obj\Debug\01_using model.csproj.CopyComplete
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\obj\Debug\01_using model.dll
+C:\Users\jbt\Documents\GitHub\.net-full-stack-91448_4\13_Web api\Day 02 - 13.07.2018\01_using model\01_using model\obj\Debug\01_using model.pdb
